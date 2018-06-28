@@ -1,18 +1,18 @@
 Pod::Spec.new do |s|
     s.name          = 'EncryptedCoreData'
-    s.version       = '3.1.1'
+    s.version       = '3.1.2'
     s.license       = 'Apache-2.0'
   
     s.summary       = 'iOS Core Data encrypted SQLite store using SQLCipher'
     s.description   = %[
         Provides a Core Data store that encrypts all data that is persisted. Besides the initial setup, the usage is exactly the same as Core Data and can be used in existing projects that use Core Data.
     ]
-    s.homepage      = 'https://github.com/ynd-consult-ug/encrypted-core-data'
+    s.homepage      = 'https://github.com/TungstenLabs/encrypted-core-data'
     s.authors       = {
         'MITRE' => 'imas-proj-list@lists.mitre.org'
     }
   
-    s.source        = { :git => 'https://github.com/ynd-consult-ug/encrypted-core-data.git', :tag => s.version.to_s }
+    s.source        = { :git => 'https://github.com/TungstenLabs/encrypted-core-data.git', :tag => s.version.to_s }
   
     s.frameworks    = ['CoreData', 'Security']
     s.requires_arc  = true
